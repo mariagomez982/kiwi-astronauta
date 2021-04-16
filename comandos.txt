@@ -1,0 +1,13 @@
+-virtual enviroment
+python -m venv venv
+source venv/Scripts/activate
+
+-flask
+export FLASK_APP=server.py
+export FLASK_ENV=development
+flask run
+
+-conectar a mongoDB
+pip install pymongo[srv]
+
+-jinga insertar texto
